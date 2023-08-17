@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 50px;
+  width: 100%;
+}
+.title{
+  font-family: Times New Roman;
+  color: rgb(19 31 85);
+
+}
+
+.cart{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.cart-left{
+  display: flex;
+  gap:50px
+}
+.cart-right{
+  text-align: right;
+  font-size: 12px;
+  font-weight: 600;
+}
+.cart-item-image{
+  width: 200px;
+}
+.cart-item-title{
+  color:rgb(19 31 85);
+  font-weight: 700;
+}
+.cart-swatch{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+.cart-swatch > div:nth-child(2){
+font-size: 12px;
+font-weight: 600;
+}
+.cart-item-swatch{
+  width:25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.cart-right > div:first-child{
+margin-bottom: 45px;
+}
+
+.cart-right > div:nth-child(2){
+margin-bottom: 20px;
+}
+
+.cart-right > div:nth-child(3){
+  text-decoration: underline;
+}
+.cart-fee{
+  border-top: 2px solid;
+  padding-top: 10px;
+}
+.cart-fee >div{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.cart-fee >div:nth-child(4){
+  font-weight: 700;
+}
+.postal-code{
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: black;
+}
+.not-available{
+  margin-top: 10px;
+}
